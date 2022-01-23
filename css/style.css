@@ -1,0 +1,10 @@
+/* common style for all */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    background-color: #E5E5E5;
+    font-family: 'Merriweather', serif;
+}
+.nav-text-color{
+    color: #3E3E3E;
+}
