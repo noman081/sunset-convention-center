@@ -38,3 +38,24 @@ body{
     background-color: white;
     color: #3F87F5;
 }
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    padding: 15px
+}
+.app-store{
+    width: 175px;
+    /* height: 40px; */
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fa-apple{
+    font-size: 30px;
+}
+.fa-google-play{
+    font-size: 30px;
+}
