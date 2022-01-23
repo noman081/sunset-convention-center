@@ -8,3 +8,33 @@ body{
 .nav-text-color{
     color: #3E3E3E;
 }
+
+.card{
+    border-radius: 26px;
+}
+.price{
+    font-weight: 700;
+}
+.choose-plan{
+    background-color: #F496D1;
+    color: #3F87F5;
+    width: 207px;
+    height: 45px;
+    border-radius: 24px;
+    border: none;
+}
+.top-demand-plan{
+    background-color: #3F87F5;
+    color: white;
+}
+.hot-plan{
+    z-index: 2;
+    padding: 14px 16px;
+    border-radius: 20px;
+    margin-top: -25px;
+    background-color: #FF4E4E;
+}
+.top-demand-plan button{
+    background-color: white;
+    color: #3F87F5;
+}
