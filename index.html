@@ -115,7 +115,19 @@
         ---------------------------------------->
         <section class="container my-5">
             <h4 class="text-center my-5">Our Package</h4>
-            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+            <!-- toast added here -->
+            <div class="d-flex justify-content-end">
+                <div class="toast show mb-5 me-0 toast-border" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-body">
+                        <img src="icons/Vector.svg" class="rounded me-2" alt="...">
+                        20% off on next booking.
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- toast ends here -->
+
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-4">
                 <div class="col">
                     <div class="card h-100 p-3 my-5">
                         <div class="card-body">
@@ -129,8 +141,10 @@
                             <p><i class="fas fa-check-circle"></i> Decoration design </p>
                             <p><i class="fas fa-check-circle"></i> Per day bill </p>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <button class="choose-plan">Choose Plan</button>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a target="_blank"
+                                href="https://www.archdaily.com/129120/the-sunset-community-centre-bing-thom-architects"
+                                class="btn choose-plan bg-gradient px-4 py-2">Choose Plan</a>
                         </div>
                     </div>
                 </div>
@@ -147,8 +161,10 @@
                             <p><i class="fas fa-check-circle"></i> Decoration design </p>
                             <p><i class="fas fa-check-circle"></i> Billed as shift </p>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <button class="choose-plan">Choose Plan</button>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a target="_blank"
+                                href="https://www.archdaily.com/129120/the-sunset-community-centre-bing-thom-architects"
+                                class="btn choose-plan bg-gradient px-4 py-2">Choose Plan</a>
                         </div>
                     </div>
                 </div>
@@ -168,8 +184,10 @@
                             <p><i class="fas fa-check-circle"></i> Premium Decoration </p>
                             <p><i class="fas fa-check-circle"></i> Pay as plan </p>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <button class="choose-plan">Choose Plan</button>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a target="_blank"
+                                href="https://www.archdaily.com/129120/the-sunset-community-centre-bing-thom-architects"
+                                class="btn choose-plan bg-gradient px-4 py-2 text-primary">Choose Plan</a>
                         </div>
                     </div>
                 </div>
@@ -187,8 +205,10 @@
                             <p><i class="fas fa-check-circle"></i> Premium Decoration </p>
                             <p><i class="fas fa-check-circle"></i> Pay as plan </p>
                         </div>
-                        <div class="d-flex justify-content-center">
-                            <button class="choose-plan">Choose Plan</button>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <a target="_blank"
+                                href="https://www.archdaily.com/129120/the-sunset-community-centre-bing-thom-architects"
+                                class="btn choose-plan bg-gradient px-4 py-2">Choose Plan</a>
                         </div>
                     </div>
                 </div>
@@ -198,15 +218,84 @@
         <!-- our-package section ends here -->
 
         <!---------------------------------------
+            Details section starts from here 
+        ---------------------------------------->
+        <section class="container">
+            <br>
+            <h4 class="text-center my-5">Details About Convention Center</h4>
+            <div class="row row-cols-lg-4 g-4 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/chair.png" alt="">
+                        <p>Capacity <br> 1000
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/plate.png" alt="">
+                        <p>Batch <br> 400
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/area.png" alt="">
+                        <p>Area Size <br> 5400 Sq Ft
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/garage.png" alt="">
+                        <p>Garage <br> Available
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row row-cols-lg-5 g-4 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/parking.png" alt="">
+                        <p>Parking <br> 50+
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/year.png" alt="">
+                        <p>Established <br> 1996
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img width="100px" src="icons/location.png" alt="">
+                        <p>Vancouver, <br> Canada
+                        </p>
+                    </div>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </section>
+        <!-- details section ends here -->
+
+        <!---------------------------------------
             Happy-client section starts from here 
         ---------------------------------------->
         <section class="container my-5">
             <br>
             <h3 class="text-center my-5">Happy Client Says</h3>
-            <div class="row row-cols-lg-3 row-cols-sm-1 row-cols-1 g-4">
+            <div class="row row-cols-lg-3 row-cols-sm-1 row-cols-1 g-4 d-flex justify-content-center">
                 <div class="col client-card p-4 shadow rounded-3 mx-2">
                     <div>
-                        <p class="text-center">I have visited so many Convention center in my life, but i have never
+                        <p class="text-center">I have visited so many Convention center in my life, but I have never
                             seen such type center
                             which was so beautiful.</p>
                     </div>
@@ -219,7 +308,8 @@
                 </div>
                 <div class="col client-card p-4 shadow rounded-3 mx-2">
                     <div>
-                        <p class="text-center">I love the way they treated us for the function and their facilities are so fascinating.</p>
+                        <p class="text-center">I love the way they treated us for the function and their facilities are
+                            so fascinating.</p>
                     </div>
                     <div class="text-center">
                         <img src="images/person 1.png" alt="">
@@ -230,7 +320,7 @@
                 </div>
                 <div class="col client-card p-4 shadow rounded-3 mx-2">
                     <div>
-                        <p class="text-center">I have visited so many Convention center in my life, but i have never
+                        <p class="text-center">I have visited so many Convention center in my life, but have never
                             seen such type center
                             which was so beautiful.</p>
                     </div>

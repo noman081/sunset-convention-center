@@ -9,6 +9,10 @@ body{
     color: #3E3E3E;
 }
 
+.toast-border{
+    border-left: 4px solid rgba(0, 68, 255, 0.664);
+    width: auto;
+}
 .card{
     border-radius: 26px;
 }
@@ -35,7 +39,7 @@ body{
     margin-top: 25px;
     background-color: #FF4E4E;
 }
-.top-demand-plan button{
+.top-demand-plan a{
     background-color: white;
     color: #3F87F5;
 }
