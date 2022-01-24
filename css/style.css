@@ -17,7 +17,7 @@ body{
 }
 .choose-plan{
     background-color: #F496D1;
-    color: #3F87F5;
+    color: white;
     width: 207px;
     height: 45px;
     border-radius: 24px;
@@ -39,7 +39,10 @@ body{
     background-color: white;
     color: #3F87F5;
 }
-
+.client-card{
+    background-color: white;
+    width: 360px;
+}
 footer{
     background-color: #0B0D17;
     color: white;
