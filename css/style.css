@@ -26,12 +26,13 @@ body{
 .top-demand-plan{
     background-color: #3F87F5;
     color: white;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
 .hot-plan{
     z-index: 2;
     padding: 14px 16px;
     border-radius: 20px;
-    margin-top: -25px;
+    margin-top: 25px;
     background-color: #FF4E4E;
 }
 .top-demand-plan button{
@@ -58,4 +59,13 @@ footer{
 }
 .fa-google-play{
     font-size: 30px;
+}
+
+@media only screen and (min-width:992px) {
+    .hot-plan{ 
+        margin-top: -25px;   
+    }
+    .top-demand-plan{
+        margin-top: 0px !important;
+    }
 }
