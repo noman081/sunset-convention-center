@@ -5,14 +5,18 @@ body{
     background-color: #E5E5E5;
     font-family: 'Merriweather', serif;
 }
+/* navbar styles */
 .nav-text-color{
     color: #3E3E3E;
 }
 
+/* toast styles */
 .toast-border{
     border-left: 4px solid rgba(0, 68, 255, 0.664);
     width: auto;
 }
+
+/* our-package styles */
 .card{
     border-radius: 26px;
 }
@@ -28,7 +32,7 @@ body{
     border: none;
 }
 .top-demand-plan{
-    background-color: #3F87F5;
+    background-color: #e6b61c;
     color: white;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
 }
@@ -43,6 +47,9 @@ body{
     background-color: white;
     color: #3F87F5;
 }
+
+
+/* client styles */
 .client-card{
     background-color: white;
     width: 360px;
@@ -50,22 +57,20 @@ body{
 footer{
     background-color: #0B0D17;
     color: white;
-    padding: 15px
+    padding: 15px;
 }
-.app-store{
-    width: 175px;
-    /* height: 40px; */
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 5px;
-}
-.fa-apple{
-    font-size: 30px;
-}
-.fa-google-play{
-    font-size: 30px;
+
+@media(max-width: 767px) {
+	.carousel-caption {	
+		font-size: 10px;
+	}
+    .carousel-caption h5{
+        font-size: 12px;
+    }
+    .carousel-caption a{
+        padding: 2px !important;
+        font-size: 8px;
+    }
 }
 
 @media only screen and (min-width:992px) {
